@@ -1,44 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebSocket Text Sender</title>
+    <link rel="stylesheet" href="/TD/style.css" />
+    <script src="/TD/script.js" defer></script>
+</head>
+<body>
+    <label for="textInput">Enter Text:</label>
+    <input type="text" id="textInput" name="textInput"><br><br>
+    <input type="submit" value="Send Text">
+</body>  
+</html>
 
-:root {
-  --color-bg: white;
-  --color-text-main: #000000;
-  --color-primary: #FFFF00;
-  --wrapper-height: 87vh;
-  --image-max-width: 300px;
-  --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
-}
-
-
-/* Basic page style resets */
-* {
-  box-sizing: border-box;
-}
-[hidden] {
-  display: none !important;
-}
-
-/* Import fonts */
-@font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-    format("opentype");
-}
-@font-face {
-  font-family: HK Grotesk;
-  font-weight: bold;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
-    format("opentype");
-}
-
-body {
-  font-family: HK Grotesk;
-  background-color: var(--color-bg);
-}
-
-
-/* Subheading */
-h2 {
-  color: #2800FF;
-}
